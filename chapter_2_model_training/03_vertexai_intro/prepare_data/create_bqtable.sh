@@ -7,7 +7,7 @@ pip3 install -r requirements.txt
 python3 generate_data.py
 
 # copy the file to the bucket
-gsutil cp fake_dataset.csv gs://vertexai_inputfiles/fake_dataset.csv
+gsutil cp fake_dataset.csv gs://first_vertex_ai_kfp_1/fake_dataset.csv
 
 
 bq --location=EU mk -d \
@@ -15,5 +15,4 @@ bq --location=EU mk -d \
     --description "VertexAI dataset" \
     learning_vertexai
 # create a table from the file
-bq load --source_format=CSV --autodetect learning_vertexai.fake_dataset_1  gs://vertexai_inputfiles/fake_dataset.csv
-
+bq load --source_format=CSV --autodetect learning_vertexai.fake_dataset_1  gs://first_vertex_ai_kfp_1/fake_dataset.csv

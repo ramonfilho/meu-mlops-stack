@@ -2,7 +2,7 @@
 
 export PIPELINE_NAME="window-pipeline"
 export PROJECT=$(gcloud config get-value project)
-export REGION="us-central1" # there may not be availability in europe
+export REGION="us-central1"
 export FLEX_BUCKET="flex_templates_my_pipeline"
 export TEMPLATE_FILE="normal_window_template.json"
 export DATAFLOW_GCS_LOCATION="gs://${FLEX_BUCKET}/${TEMPLATE_FILE}"
@@ -21,8 +21,8 @@ gcloud dataflow flex-template run ${PIPELINE_NAME} \
 --worker-machine-type=n1-standard-2 \
 --max-workers=${NUM_MAX_WORKERS}  \
 --num-workers=1  \
---temp-location=gs://temp-bucket-for-dataflow-tests/ \
---staging-location=gs://staging-bucket-for-dataflow-tests/ \
+--temp-location=gs://yfms_temp \
+--staging-location=gs://staging-bucket-now \
 --parameters job_name=${PIPELINE_NAME} \
 --parameters project=${PROJECT} \
 --parameters region=${REGION} \

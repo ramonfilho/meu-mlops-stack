@@ -1,10 +1,9 @@
-project_region: europe-west2
-vertex_project: data-gearbox-421420
+project_region: us-central1
+vertex_project: smart-ads-451319
 vertex_bucket: gs://vertexai_inputfiles
 cache: False
-input_data_path: gs://vertexai_inputfiles/fake_dataset.csv
-container_image: europe-west2-docker.pkg.dev/data-gearbox-421420/randomforest-vertexai/randomforest_vertexai
-location: europe-west2-b
-# this must be created within europe-west2
+input_data_path: gs://first_vertex_ai_kfp_1/fake_dataset.csv
+container_image: us-central1-docker.pkg.dev/smart-ads-451319/randomforest-vertexai/randomforest_vertexai:20250716-112159
+location: us-central1
 artefacts_bucket: vertexai_output_models
-project_id: data-gearbox-421420
+project_id: smart-ads-451319

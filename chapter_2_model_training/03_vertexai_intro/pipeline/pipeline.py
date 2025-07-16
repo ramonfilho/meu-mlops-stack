@@ -292,7 +292,7 @@ def pipeline(
     preprocess_output = preprocess_info()
     # query the dataset and export it
     sql_query = (
-        "SELECT * FROM `data-gearbox-421420.learning_vertexai.fake_dataset_1`"
+        "SELECT * FROM `smart-ads-451319.learning_vertexai.fake_dataset_1`"
     )
 
     dataset = read_from_bq(
@@ -320,7 +320,7 @@ if __name__ == "__main__":
     pipe = compiler.Compiler().compile(pipeline_func=pipeline, package_path=package_path)
     with open(package_path, "r") as ifile:
          pipeline_specs = json.load(ifile)
-    display_name = pipeline_specs["pipelineSpec"]["pipelineInfo"]["name"]
+    display_name = pipeline_specs["pipelineInfo"]["name"]
     pipeline = pipeline_jobs.PipelineJob(
             display_name,
             package_path,

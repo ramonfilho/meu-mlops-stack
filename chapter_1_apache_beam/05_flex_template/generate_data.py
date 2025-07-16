@@ -6,7 +6,7 @@ from structlog import get_logger
 
 
 logger = get_logger()
-project_id = "data-gearbox-421420"
+project_id = "smart-ads-451319"
 topic_id = "normal-window"
 
 publisher = pubsub_v1.PublisherClient()

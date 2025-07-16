@@ -1,0 +1,323 @@
+{
+  "components": {
+    "comp-preprocess-info": {
+      "executorLabel": "exec-preprocess-info",
+      "outputDefinitions": {
+        "parameters": {
+          "training_args": {
+            "parameterType": "LIST"
+          },
+          "training_job_name": {
+            "parameterType": "STRING"
+          }
+        }
+      }
+    },
+    "comp-read-from-bq": {
+      "executorLabel": "exec-read-from-bq",
+      "inputDefinitions": {
+        "parameters": {
+          "after_component": {
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "output_data_format": {
+            "defaultValue": "parquet",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "project_id": {
+            "parameterType": "STRING"
+          },
+          "save_results": {
+            "defaultValue": true,
+            "isOptional": true,
+            "parameterType": "BOOLEAN"
+          },
+          "sql_query": {
+            "parameterType": "STRING"
+          },
+          "user_output_data_path": {
+            "isOptional": true,
+            "parameterType": "STRING"
+          }
+        }
+      },
+      "outputDefinitions": {
+        "parameters": {
+          "Output": {
+            "parameterType": "STRING"
+          }
+        }
+      }
+    },
+    "comp-train-model": {
+      "executorLabel": "exec-train-model",
+      "inputDefinitions": {
+        "parameters": {
+          "accelerator_count": {
+            "isOptional": true,
+            "parameterType": "NUMBER_INTEGER"
+          },
+          "accelerator_type": {
+            "defaultValue": "ACCELERATOR_TYPE_UNSPECIFIED",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "after_component": {
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "artifacts_bucket": {
+            "parameterType": "STRING"
+          },
+          "location": {
+            "parameterType": "STRING"
+          },
+          "machine_type": {
+            "defaultValue": "n1-standard-4",
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "model_display_name": {
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "model_image": {
+            "parameterType": "STRING"
+          },
+          "model_serving_uri": {
+            "isOptional": true,
+            "parameterType": "STRING"
+          },
+          "project_id": {
+            "parameterType": "STRING"
+          },
+          "replica_count": {
+            "defaultValue": 1.0,
+            "isOptional": true,
+            "parameterType": "NUMBER_INTEGER"
+          },
+          "training_args": {
+            "isOptional": true,
+            "parameterType": "LIST"
+          },
+          "training_job_name": {
+            "isOptional": true,
+            "parameterType": "STRING"
+          }
+        }
+      },
+      "outputDefinitions": {
+        "parameters": {
+          "Output": {
+            "parameterType": "STRING"
+          }
+        }
+      }
+    }
+  },
+  "deploymentSpec": {
+    "executors": {
+      "exec-preprocess-info": {
+        "container": {
+          "args": [
+            "--executor_input",
+            "{{$}}",
+            "--function_to_execute",
+            "preprocess_info"
+          ],
+          "command": [
+            "sh",
+            "-c",
+            "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.13.0' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"' && \"$0\" \"$@\"\n",
+            "sh",
+            "-ec",
+            "program_path=$(mktemp -d)\n\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\n_KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+            "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import *\n\ndef preprocess_info() -> NamedTuple(\"Data\",[(\"training_job_name\", str),(\"training_args\", list),]):\n    \"\"\" This component prepare all the inputs for the training job\n\n    The function returns the training job name for the model, so it can be\n    updated every day. It also returns the training arguments for the model.\n    This can be useful if we want to use a daily dataset\n\n    Return\n    ------\n        NamedTuple: `Data` as two keys:\n                    `training_job_name`: the name of the training job and\n                    `training_args` the training arguments.\n    \"\"\"\n    import datetime\n    from collections import namedtuple\n\n    today = datetime.datetime.utcnow().isoformat()\n    training_job_name = f\"scamspam-{today}\"\n\n    # here is where our data is outputted from the bigquery component\n    training_args = [\"gs://vertexai_inputfiles/fake_dataset.csv\"]\n    # output is read as a namedtuple\n    output_tuple = namedtuple(\n        \"Data\",\n        [\n            \"training_job_name\",\n            \"training_args\",\n        ],\n    )\n\n    return output_tuple(training_job_name, training_args)\n\n"
+          ],
+          "image": "python:3.9"
+        }
+      },
+      "exec-read-from-bq": {
+        "container": {
+          "args": [
+            "--executor_input",
+            "{{$}}",
+            "--function_to_execute",
+            "read_from_bq"
+          ],
+          "command": [
+            "sh",
+            "-c",
+            "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.13.0' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&  python3 -m pip install --quiet --no-warn-script-location 'google-cloud-bigquery' 'google-cloud-storage' 'pandas' 'pandas-gbq' 'fsspec' 'gcsfs' && \"$0\" \"$@\"\n",
+            "sh",
+            "-ec",
+            "program_path=$(mktemp -d)\n\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\n_KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+            "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import *\n\ndef read_from_bq(\n    sql_query: str,\n    project_id: str,\n    save_results: Optional[bool] = True,\n    user_output_data_path: Optional[str] = None,\n    output_data_format: Optional[str] = \"parquet\",\n    after_component: Optional[str] = None,\n) -> str:\n    \"\"\"This function runs an sql query in BQ and returns the Kubeflow path the data are stored.\n\n    By Default `save_results` is fixed to True, so the component runs extract_table\n    and results are exported to either `user_output_data_path` or a standard on-the-fly created\n    kubeflow path.\n\n    The dataframe can be saved in parquet (default) or csv format.\n\n    The input data are read through BQ API Storage:\n    https://cloud.google.com/bigquery/docs/pandas-gbq-migration#using_the_to_download_large_results\n    Note packages ffspec and gcsfs allow to write data to gcs, so they are installed but not actively used.\n\n    In order to make this step sequential, so to be executed after a given task, the output of a\n    previous step can be injected as after_component, so kfp will read the logical sequence of steps.\n    For example:\n    set_data = bigquery.read_from_bq(query1, project_id)\n    set_data2 = bigquery.read_from_bq(query1, project_id, after_component=set_data.output)\n\n    Args\n    ----------\n        sql_query: str, input SQL query; in text format OR a GCS link\n        project_id: str, the project id to work with (e.g. trustedplatform-pl-staging)\n        save_results: Optional(bool), default true, so results will be stored in a on-the-fly\n                        gcs path or in a user defined path\n        user_output_data_path: Optional(str), optional user path for saving data\n        output_data_format: Optional(str), the output format, this may be \"csv\" or \"parquet\".\n                            If not given \"parquet\" will be preferred\n        after_component: This is an optional input and can be a Dataset, Model or string type. This is a dummy variables\n                        and it is implemented to allow components to be executed in sequential order.\n                        For example\n\n    Return\n    ------\n        output_data_path: kfp.v2.dsl.OutputPath\n    \"\"\"\n    from google.cloud import bigquery\n    from google.cloud import storage\n    import logging\n\n    def read_from_gcs(project_id):\n        r\"\"\" Extract the query from a gcs bucket\"\"\"\n        storage_client = storage.Client(project=project_id)\n        gcs_components = sql_query.replace(\"gs://\", \"\").split(\"/\")\n        # source bucket\n        source_bucket = storage_client.bucket(gcs_components[0])\n        # source blob\n        source_blob = source_bucket.blob(\"/\".join(gcs_components[1:]))\n        source_blob = source_blob.download_as_string()\n        parsed_query = source_blob.decode('utf-8')\n\n        return parsed_query\n\n    logging.getLogger().setLevel(logging.INFO)\n    client = bigquery.Client(project=project_id)\n    parsed_query = read_from_gcs(project_id) if sql_query.startswith(\"gs://\") else sql_query\n    job = client.query(parsed_query)\n    job.result()\n\n    if not save_results:\n        return\n\n    if job.num_child_jobs >= 1:\n        # To handle multi stage jobs, we presume the last child job is the job\n        # that creates the table the user is interested in. This overwrites the\n        # `job` variable. The last child job is actually the first entry of the list_jobs output\n        job = next(client.list_jobs(parent_job=job.job_id))\n\n    # Kubeflow default output_data_path prefixes gcs paths with '/gcs/' rather\n    # than specifying it with a gs:// protocol identifier\n    kubeflow_output_data_path = (\n        user_output_data_path  # if user_output_data_path else output_data_path\n    )\n\n    # export a table to a GCS location\n    if kubeflow_output_data_path:\n\n        # define variables for job configuration\n        # we want to save the output file in GCS in PARQUET as default\n        jobconfig_outputformat = \"PARQUET\"\n        jobconfig_compression = \"SNAPPY\"\n        if output_data_format == \"csv\":\n            jobconfig_outputformat = \"CSV\"\n            jobconfig_compression = None\n\n        extract_job = client.extract_table(\n            job.destination,\n            kubeflow_output_data_path,\n            location=job.location,  # e.g. EU\n            job_config=bigquery.job.ExtractJobConfig(\n                destination_format=jobconfig_outputformat,\n                compression=jobconfig_compression,\n            ),\n        )\n\n        extract_job.result()\n    # this is the path of the output file\n    return kubeflow_output_data_path\n\n"
+          ],
+          "image": "python:3.9"
+        }
+      },
+      "exec-train-model": {
+        "container": {
+          "args": [
+            "--executor_input",
+            "{{$}}",
+            "--function_to_execute",
+            "train_model"
+          ],
+          "command": [
+            "sh",
+            "-c",
+            "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.13.0' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&  python3 -m pip install --quiet --no-warn-script-location 'google_cloud_core' 'google_cloud_aiplatform' 'datetime' && \"$0\" \"$@\"\n",
+            "sh",
+            "-ec",
+            "program_path=$(mktemp -d)\n\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\n_KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
+            "\nimport kfp\nfrom kfp import dsl\nfrom kfp.dsl import *\nfrom typing import *\n\ndef train_model(\n    artifacts_bucket: str,\n    project_id: str,\n    location: str,\n    model_image: str,\n    machine_type: Optional[str] = \"n1-standard-4\",\n    accelerator_type: Optional[str] = \"ACCELERATOR_TYPE_UNSPECIFIED\",\n    replica_count: Optional[int] = 1,\n    accelerator_count: Optional[int] = None,\n    training_job_name: Optional[str] = None,\n    model_display_name: Optional[str] = None,\n    training_args: Optional[list] = None,\n    model_serving_uri: Optional[str] = None,\n    after_component: Optional[str] = None,\n) -> str:\n    r\"\"\"This function train a given model with CustomContainerTrainingJob.\n    The function return the model path:\n    (e.g.\"projects/{service_account_number}/locations/{project_region}/models/{input_model})\n\n    Args\n    ----------\n        artifacts_bucket: str, where artifacts are saved\n        project_id: str, GCP project\n        project_region: str, location/project region\n        model_image: str, GCR path for the model image\n        machine_type: Optional(str), define the machine type to run the training e.g. n1-standard-4\n        accelerator_type: Optional(str), NVIDIA_TESLA_K80, NVIDIA_TESLA_P100 etc\n        replica_count: Optional(int) the number of worker replicas\n        accelerator_count: Optional(int) the number of accelerator to be used\n        training_job_name: Optional or string name for the training job, if not given a custom name will be created\n        model_display_name: Optional or str, name of the final model to be given if model_serving_uri is given\n        training_args: Optional or str, possible training arguments for model\n        model_serving_uri: Optional or str, uri for the model endpoint serving API on eu.gcr\n        after_component: This is an optional input and can be of any type,\n                        if the component has to be execute sequentially in general\n\n    Returns\n    ------\n        model.resource_name: aiplatform.Model, return the resource path of the model.\n                            This is needed for deploying models as vertexAI endpoints\n        job.resource_name: str, return the path of the trained algorithm\n    \"\"\"\n    from google.cloud import aiplatform\n    from datetime import datetime\n    import os\n    import logging\n\n    logging.getLogger().setLevel(logging.INFO)\n    # the project number is needed for the network path\n    # project_number = os.environ[\"CLOUD_ML_PROJECT_ID\"]\n    # logging.info(f\"Project {project_number}\")\n    # network_path = f\"projects/{project_number}/global/networks/default\"\n    # # initialize the aiplatform Client\n    aiplatform.init(\n        project=project_id, location=location, staging_bucket=artifacts_bucket\n    )\n\n    if not training_job_name:\n        training_job_name = \"training_\" + datetime.today().strftime(\"%Y-%m-%d_%H:%M:%S\")\n\n    # define the bigquery destination, namely where the input data will be saved in BQuery by VAI\n    bigquery_destination = \"bq://\" + project_id\n\n    # set up the CustomContainerTrainingJob\n    # if model_serving_uri is not given model_serving arguments are ignored by the API\n    job = aiplatform.CustomContainerTrainingJob(\n        display_name=training_job_name,\n        container_uri=model_image,\n        model_serving_container_image_uri=model_serving_uri,\n        model_serving_container_predict_route=\"/predict\",\n        model_serving_container_health_route=\"/health_check\",\n        model_serving_container_ports=[8080],\n    )\n    # run the training bit\n    model = job.run(\n        dataset=None,\n        model_display_name=model_display_name,\n        args=training_args,\n        replica_count=replica_count,\n        machine_type=machine_type,\n        accelerator_type=accelerator_type,\n        accelerator_count=accelerator_count,\n        base_output_dir=\"gs://\" + artifacts_bucket,\n        bigquery_destination=bigquery_destination,\n        # network=network_path,\n    )\n\n    if model:\n        # in this case we have a model\n        model.resource_name\n    else:\n        # otherwise return where artefacts have been saved\n        return \"gs://\" + artifacts_bucket + \"/model\"\n\n"
+          ],
+          "image": "python:3.9"
+        }
+      }
+    }
+  },
+  "pipelineInfo": {
+    "description": "Example for running a RF model",
+    "name": "rf-example-1"
+  },
+  "root": {
+    "dag": {
+      "tasks": {
+        "preprocess-info": {
+          "cachingOptions": {
+            "enableCache": true
+          },
+          "componentRef": {
+            "name": "comp-preprocess-info"
+          },
+          "taskInfo": {
+            "name": "preprocess-info"
+          }
+        },
+        "read-from-bq": {
+          "cachingOptions": {
+            "enableCache": true
+          },
+          "componentRef": {
+            "name": "comp-read-from-bq"
+          },
+          "inputs": {
+            "parameters": {
+              "output_data_format": {
+                "runtimeValue": {
+                  "constant": "csv"
+                }
+              },
+              "project_id": {
+                "componentInputParameter": "vertex_project"
+              },
+              "save_results": {
+                "runtimeValue": {
+                  "constant": true
+                }
+              },
+              "sql_query": {
+                "runtimeValue": {
+                  "constant": "SELECT * FROM `smart-ads-451319.learning_vertexai.fake_dataset_1`"
+                }
+              },
+              "user_output_data_path": {
+                "componentInputParameter": "input_data_path"
+              }
+            }
+          },
+          "taskInfo": {
+            "name": "read-from-bq"
+          }
+        },
+        "train-model": {
+          "cachingOptions": {
+            "enableCache": true
+          },
+          "componentRef": {
+            "name": "comp-train-model"
+          },
+          "dependentTasks": [
+            "preprocess-info",
+            "read-from-bq"
+          ],
+          "inputs": {
+            "parameters": {
+              "after_component": {
+                "taskOutputParameter": {
+                  "outputParameterKey": "Output",
+                  "producerTask": "read-from-bq"
+                }
+              },
+              "artifacts_bucket": {
+                "componentInputParameter": "artefacts_bucket"
+              },
+              "location": {
+                "componentInputParameter": "project_region"
+              },
+              "model_image": {
+                "componentInputParameter": "container_image"
+              },
+              "project_id": {
+                "componentInputParameter": "vertex_project"
+              },
+              "training_args": {
+                "taskOutputParameter": {
+                  "outputParameterKey": "training_args",
+                  "producerTask": "preprocess-info"
+                }
+              },
+              "training_job_name": {
+                "taskOutputParameter": {
+                  "outputParameterKey": "training_job_name",
+                  "producerTask": "preprocess-info"
+                }
+              }
+            }
+          },
+          "taskInfo": {
+            "name": "train-model"
+          }
+        }
+      }
+    },
+    "inputDefinitions": {
+      "parameters": {
+        "artefacts_bucket": {
+          "parameterType": "STRING"
+        },
+        "cache": {
+          "parameterType": "BOOLEAN"
+        },
+        "container_image": {
+          "parameterType": "STRING"
+        },
+        "input_data_path": {
+          "parameterType": "STRING"
+        },
+        "location": {
+          "parameterType": "STRING"
+        },
+        "project_id": {
+          "parameterType": "STRING"
+        },
+        "project_region": {
+          "parameterType": "STRING"
+        },
+        "vertex_bucket": {
+          "parameterType": "STRING"
+        },
+        "vertex_project": {
+          "parameterType": "STRING"
+        }
+      }
+    }
+  },
+  "schemaVersion": "2.1.0",
+  "sdkVersion": "kfp-2.13.0"
+}
