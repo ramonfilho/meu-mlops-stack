@@ -6,9 +6,8 @@ export IMAGE_TAG=$(date +%Y%m%d-%H%M%S)
 export IMAGE_NAME="randomforest_vertexai"
 export IMAGE_URI="us-central1-docker.pkg.dev/${PROJECT_ID}/${ARTIFACT_REGISTRY_REPO}/${IMAGE_NAME}:${IMAGE_TAG}"
 
-echo "Build Docker image with tag: ${IMAGE_TAG}"
-# Constrói a imagem já com o nome e a tag de destino
-docker build --no-cache -t ${IMAGE_URI} -f docker/Dockerfile .
-echo "Push Docker image"
-gcloud auth configure-docker us-central1-docker.pkg.dev
-docker push ${IMAGE_URI}
+echo "Build Docker image with tag: ${IMAGE_TAG} for amd64 platform"
+# Constrói a imagem para a plataforma linux/amd64 e faz o push direto para o registry
+docker buildx build --platform linux/amd64 -t ${IMAGE_URI} -f docker/Dockerfile . --push
+
+echo "Docker image pushed successfully"

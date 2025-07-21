@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Change to the script's directory
+cd "$(dirname "$0")"
+
 # install
 pip3 install -r requirements.txt
 

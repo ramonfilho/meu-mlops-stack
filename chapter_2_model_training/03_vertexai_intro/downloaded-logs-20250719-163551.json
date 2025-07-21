@@ -1,0 +1,5074 @@
+[
+  {
+    "textPayload": "Waiting for job to be provisioned.",
+    "insertId": "13fq91zd8i0i",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:36:39.337104670Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": "",
+      "ml.googleapis.com/job_state": "QUEUED"
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:36:40.329697647Z"
+  },
+  {
+    "textPayload": "Waiting for job to be provisioned.",
+    "insertId": "13fq91zd8i0j",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:36:39.358782941Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:36:40.329697647Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i5n",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:02.018890408Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:03.429976983Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i5w",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:05.248162598Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:06.424757227Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i6b",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:09.800375555Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:11.436456229Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i6t",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:15.545677304Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:16.470087989Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i70",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:21.886875079Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:23.448422276Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i7o",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:31.420359731Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:32.451896160Z"
+  },
+  {
+    "insertId": "1ys15fgexecta",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:40.893329170Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:38:43.213177411Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i88",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:43.709184189Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:44.472362141Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i8x",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:38:54.586696801Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:38:55.480455982Z"
+  },
+  {
+    "insertId": "646536esyw81",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810169465Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw82",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "kfp 2.13.0 requires kfp-pipeline-spec==0.6.0, which is not installed.",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810189562Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw83",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "kfp 2.13.0 requires kfp-server-api<2.5.0,>=2.1.0, which is not installed.",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810198576Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw84",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "kfp 2.13.0 requires kubernetes<31,>=8.0.0, which is not installed.",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810208856Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw85",
+    "jsonPayload": {
+      "message": "kfp 2.13.0 requires PyYAML<7,>=5.3, which is not installed.",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810216415Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw86",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR",
+      "message": "kfp 2.13.0 requires requests-toolbelt<2,>=0.8.0, which is not installed."
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810223558Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw87",
+    "jsonPayload": {
+      "message": "kfp 2.13.0 requires tabulate<1,>=0.8.6, which is not installed.",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810233408Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw88",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "kfp 2.13.0 requires protobuf<5,>=4.21.1, but you have protobuf 6.31.1 which is incompatible.",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810240210Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw89",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810246661Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8a",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810255892Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8b",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "[notice] A new release of pip is available: 23.0.1 -> 25.1.1",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810276849Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8c",
+    "jsonPayload": {
+      "message": "[notice] To update, run: pip install --upgrade pip",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:02.810283288Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8d",
+    "jsonPayload": {
+      "message": "[KFP Executor 2025-07-19 18:39:03,565 INFO]: Looking for component `train_model` in --component_module_path `/tmp/tmp.U6zV0WLl5f/ephemeral_component.py`",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818357550Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8e",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "[KFP Executor 2025-07-19 18:39:03,565 INFO]: Loading KFP component \"train_model\" from /tmp/tmp.U6zV0WLl5f/ephemeral_component.py (directory \"/tmp/tmp.U6zV0WLl5f\" and module name \"ephemeral_component\")"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818378335Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8f",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "[KFP Executor 2025-07-19 18:39:03,567 INFO]: Got executor_input:"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818387570Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8g",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "{"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818394845Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8h",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "    \"inputs\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818406924Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8i",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "        \"parameterValues\": {",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818414564Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8j",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            \"accelerator_count\": null,"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818421340Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8k",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            \"accelerator_type\": \"ACCELERATOR_TYPE_UNSPECIFIED\","
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818433880Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8l",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"after_component\": \"gs://first_vertex_ai_kfp_1/fake_dataset.csv\","
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818441040Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8m",
+    "jsonPayload": {
+      "message": "            \"artifacts_bucket\": \"vertexai_output_models\",",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818447508Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8n",
+    "jsonPayload": {
+      "message": "            \"location\": \"us-central1\",",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818457489Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8o",
+    "jsonPayload": {
+      "message": "            \"machine_type\": \"n1-standard-4\",",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818464139Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8p",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            \"model_display_name\": null,"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818470687Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8q",
+    "jsonPayload": {
+      "message": "            \"model_image\": \"us-central1-docker.pkg.dev/smart-ads-451319/randomforest-vertexai/randomforest_vertexai:20250719-151117\",",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818480787Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8r",
+    "jsonPayload": {
+      "message": "            \"model_serving_uri\": null,",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818492107Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8s",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            \"project_id\": \"smart-ads-451319\","
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818499028Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8t",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"replica_count\": 1,",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818509129Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8u",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"training_args\": ["
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818516836Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8v",
+    "jsonPayload": {
+      "message": "                \"gs://vertexai_inputfiles/fake_dataset.csv\"",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818549612Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8w",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            ],"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818557284Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8x",
+    "jsonPayload": {
+      "message": "            \"training_job_name\": \"scamspam-2025-07-19T18:35:52.254032\"",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818567767Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8y",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "        },"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818576479Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw8z",
+    "jsonPayload": {
+      "message": "        \"parameters\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818583406Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw90",
+    "jsonPayload": {
+      "message": "            \"accelerator_count\": {",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818593192Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw91",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "                \"intValue\": \"0\""
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818600042Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw92",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "            },",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818606341Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw93",
+    "jsonPayload": {
+      "message": "            \"accelerator_type\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818616367Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw94",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "                \"stringValue\": \"ACCELERATOR_TYPE_UNSPECIFIED\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818623449Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw95",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            },"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818629759Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw96",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"after_component\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818640333Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw97",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "                \"stringValue\": \"gs://first_vertex_ai_kfp_1/fake_dataset.csv\""
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818647422Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw98",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            },",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818653842Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw99",
+    "jsonPayload": {
+      "message": "            \"artifacts_bucket\": {",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818682450Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9a",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "                \"stringValue\": \"vertexai_output_models\""
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818691097Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9b",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            },"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818697575Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9c",
+    "jsonPayload": {
+      "message": "            \"location\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818704228Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9d",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "                \"stringValue\": \"us-central1\"",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818714735Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9e",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            },"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818721313Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9f",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "            \"machine_type\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818728670Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9g",
+    "jsonPayload": {
+      "message": "                \"stringValue\": \"n1-standard-4\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818739013Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9h",
+    "jsonPayload": {
+      "message": "            },",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818745512Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9i",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"model_display_name\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818752171Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9j",
+    "jsonPayload": {
+      "message": "                \"stringValue\": \"\"",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818765024Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9k",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            },"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818771405Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9l",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            \"model_image\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818777811Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9m",
+    "jsonPayload": {
+      "message": "                \"stringValue\": \"us-central1-docker.pkg.dev/smart-ads-451319/randomforest-vertexai/randomforest_vertexai:20250719-151117\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818788066Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9n",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            },",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818794628Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9o",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "            \"model_serving_uri\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818801153Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9p",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "                \"stringValue\": \"\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818810670Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9q",
+    "jsonPayload": {
+      "message": "            },",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818818287Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9r",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"project_id\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818824806Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9s",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "                \"stringValue\": \"smart-ads-451319\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818830920Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9t",
+    "jsonPayload": {
+      "message": "            },",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818840225Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9u",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            \"replica_count\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818846760Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9v",
+    "jsonPayload": {
+      "message": "                \"intValue\": \"1\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818852937Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9w",
+    "jsonPayload": {
+      "message": "            },",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818862194Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9x",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO",
+      "message": "            \"training_args\": {"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818868712Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9y",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "                \"stringValue\": \"[\\\"gs://vertexai_inputfiles/fake_dataset.csv\\\"]\"",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818876104Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esyw9z",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "            },",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818885268Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa0",
+    "jsonPayload": {
+      "message": "            \"training_job_name\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818891848Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa1",
+    "jsonPayload": {
+      "message": "                \"stringValue\": \"scamspam-2025-07-19T18:35:52.254032\"",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818898436Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa2",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "            }",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818907741Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa3",
+    "jsonPayload": {
+      "message": "        }",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818919269Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa4",
+    "jsonPayload": {
+      "message": "    },",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818925910Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa5",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "    \"outputs\": {",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818935738Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa6",
+    "jsonPayload": {
+      "message": "        \"outputFile\": \"/gcs/vertexai_inputfiles/12955519745/rf-example-1-20250719153422/train-model_-8899915610251591680/executor_output.json\",",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818943429Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa7",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "        \"parameters\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818950019Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa8",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "            \"Output\": {",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818956171Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywa9",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "                \"outputFile\": \"/gcs/vertexai_inputfiles/12955519745/rf-example-1-20250719153422/train-model_-8899915610251591680/Output\"",
+      "levelname": "INFO"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818966105Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywaa",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "            }",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818972379Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywab",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "        }"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818978646Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywac",
+    "jsonPayload": {
+      "message": "    }",
+      "levelname": "INFO",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818988036Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "insertId": "646536esywad",
+    "jsonPayload": {
+      "levelname": "INFO",
+      "message": "}",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:03.818994504Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T18:39:05.823242976Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8i9l",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:09.173127466Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:39:10.500101750Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iam",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:29.578466067Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:39:30.526036482Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ic0",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:39:58.974880009Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:40:00.561890437Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8id3",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:40:21.059601055Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:40:22.584742060Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iel",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:40:50.102805253Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:40:51.613743807Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ifs",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:41:13.565138288Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:41:14.640819330Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ih2",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:41:41.697200271Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:41:42.667771691Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ii8",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:42:01.956768563Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:42:03.692342918Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ij0",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:42:27.047287818Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:42:28.718788080Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ik7",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:42:52.513830104Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:42:53.755292423Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8il6",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:43:17.881925153Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:43:18.791144032Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8imc",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:43:42.432868936Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:43:42.805160385Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ins",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:44:09.673241444Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:44:09.838019669Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ior",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:44:34.000455161Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:44:34.859404782Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iq4",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:45:03.214806111Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:45:03.896594768Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ira",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:45:21.915831451Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:45:22.921321852Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8isf",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:45:41.569683211Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:45:41.934315396Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iu3",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:46:09.048168321Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:46:09.969125081Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ivv",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:46:38.293631684Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:46:39.000878590Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iwo",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:46:57.576752555Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:46:58.019505080Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8ixu",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:47:21.125210158Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:47:22.051474510Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iyb",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:47:43.698453512Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:47:44.074319260Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8iz7",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:48:12.435030909Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:48:13.111064385Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j0e",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:48:36.276200100Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:48:37.135023715Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j1i",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:49:05.960622088Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:49:07.170696053Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j2g",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:49:34.842744221Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:49:36.197105329Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j3g",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:49:56.690261146Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:49:57.227077317Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j43",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:50:26.227803179Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:50:27.258625987Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j4n",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:50:50.541322639Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:50:51.280911561Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j5e",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:51:20.659592403Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:51:21.317609605Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j68",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:51:47.757965732Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:51:48.350580469Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j6t",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:52:08.942920191Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:52:10.377351767Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j7p",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:52:32.161977515Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:52:33.403220312Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j8j",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:52:54.184739456Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:52:55.418124839Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8j9c",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:53:13.656903005Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:53:14.444705753Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jae",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:53:38.876198320Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:53:40.491957400Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jb7",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:54:07.511032485Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:54:08.508473570Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jbx",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:54:31.276736774Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:54:32.533991104Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jct",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T18:54:53.268577099Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:54:54.561378153Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jdr",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:55:16.937293892Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:55:18.583073135Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jef",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:55:41.640773232Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:55:42.609774731Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jft",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:56:09.476703593Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:56:10.641206945Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jhm",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:56:39.538313748Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:56:40.671058377Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jj1",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:56:58.672106606Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:56:59.694268578Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jkr",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:57:17.878952245Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:57:19.721605527Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jmf",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:57:40.686091698Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:57:41.756681135Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jo3",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:58:05.270690359Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:58:06.771293584Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jqc",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:58:35.311612899Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:58:35.799867529Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jsd",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:59:02.987750145Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:59:03.833653992Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jtd",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T18:59:22.637818519Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:59:22.856150748Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8juk",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T18:59:48.619868806Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T18:59:48.880285445Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jwj",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:00:14.819668396Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:00:15.911520284Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jy1",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:00:38.858947029Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:00:39.937913704Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8jzo",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T19:01:01.617535292Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:01:01.961246488Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8k14",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T19:01:23.000705087Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:01:23.994517904Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8k3a",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:01:50.679603722Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:01:51.016029931Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8k50",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:02:16.069220283Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:02:17.055972112Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8k5x",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:02:34.842789492Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:02:36.082097557Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8k7q",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:03:02.817649887Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:03:04.102845169Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8k92",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:03:24.297733953Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:03:25.126148644Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8kb7",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:03:52.677699844Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:03:53.157194030Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8kdj",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "service",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:15.279009753Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:04:16.181128926Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8kf7",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:36.587751917Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:04:37.214412595Z"
+  },
+  {
+    "insertId": "3e9l8uex02pv",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "Traceback (most recent call last):",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813328620Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02pw",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR",
+      "message": "  File \"/usr/local/lib/python3.9/runpy.py\", line 197, in _run_module_as_main"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813356301Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02px",
+    "jsonPayload": {
+      "message": "    return _run_code(code, main_globals, None,",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813365301Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02py",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "  File \"/usr/local/lib/python3.9/runpy.py\", line 87, in _run_code",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813372694Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02pz",
+    "jsonPayload": {
+      "message": "    exec(code, run_globals)",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813380359Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q0",
+    "jsonPayload": {
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/kfp/dsl/executor_main.py\", line 109, in <module>",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813387655Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q1",
+    "jsonPayload": {
+      "message": "    executor_main()",
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813394767Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q2",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR",
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/kfp/dsl/executor_main.py\", line 101, in executor_main"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813402139Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q3",
+    "jsonPayload": {
+      "message": "    output_file = executor.execute()",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813408557Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q4",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/kfp/dsl/executor.py\", line 361, in execute"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813415182Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q5",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "    result = self.func(**func_kwargs)",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813422729Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q6",
+    "jsonPayload": {
+      "message": "  File \"/tmp/tmp.U6zV0WLl5f/ephemeral_component.py\", line 81, in train_model",
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813429128Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q7",
+    "jsonPayload": {
+      "message": "    model = job.run(",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813435753Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q8",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/training_jobs.py\", line 4979, in run"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813442263Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02q9",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "    return self._run("
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813449120Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qa",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/base.py\", line 863, in wrapper",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813455738Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qb",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "    return method(*args, **kwargs)"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813462381Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qc",
+    "jsonPayload": {
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/training_jobs.py\", line 5778, in _run",
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813468885Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qd",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "    model = self._run_job(",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813475250Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qe",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/training_jobs.py\", line 855, in _run_job",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813481807Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qf",
+    "jsonPayload": {
+      "message": "    model = self._get_model(block=block)",
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813487987Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qg",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/training_jobs.py\", line 942, in _get_model",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813494615Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qh",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "message": "    self._block_until_complete()",
+      "attrs": {
+        "tag": "workerpool0-0"
+      }
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813500903Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qi",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/training_jobs.py\", line 985, in _block_until_complete",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813507731Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qj",
+    "jsonPayload": {
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "    self._raise_failure()",
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "workerpool0-0"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813513731Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qk",
+    "jsonPayload": {
+      "message": "  File \"/usr/local/lib/python3.9/site-packages/google/cloud/aiplatform/training_jobs.py\", line 1002, in _raise_failure",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813519908Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02ql",
+    "jsonPayload": {
+      "message": "    raise RuntimeError(\"Training failed with:\\n%s\" % self._gca_resource.error)",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813527596Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qm",
+    "jsonPayload": {
+      "message": "RuntimeError: Training failed with:",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "levelname": "ERROR"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813533575Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qn",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "code: 3"
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813539492Z",
+    "severity": "ERROR",
+    "labels": {
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/tpu_worker_id": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qo",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": "message: \"Pulling container image failed. Back-off pulling image \\\"us-central1-docker.pkg.dev/smart-ads-451319/randomforest-vertexai/randomforest_vertexai:20250719-151117\\\": ErrImagePull: rpc error: code = NotFound desc = failed to pull and unpack image \\\"us-central1-docker.pkg.dev/smart-ads-451319/randomforest-vertexai/randomforest_vertexai:20250719-151117\\\": no match for platform in manifest: not found\""
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "task_name": "workerpool0-0",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813547778Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/job_id/log_area": "root",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\""
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "insertId": "3e9l8uex02qp",
+    "jsonPayload": {
+      "levelname": "ERROR",
+      "attrs": {
+        "tag": "workerpool0-0"
+      },
+      "message": ""
+    },
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "workerpool0-0",
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319"
+      }
+    },
+    "timestamp": "2025-07-19T19:04:48.813553846Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/trial_id": "",
+      "ml.googleapis.com/tpu_worker_id": "",
+      "compute.googleapis.com/resource_name": "9bdd0cb65a72",
+      "compute.googleapis.com/zone": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain location:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/trial_type": "",
+      "compute.googleapis.com/resource_id": "2025-07-19 18:38:40 +0000 [error]: #0 Failed to obtain vm_id:  error_class=OpenURI::HTTPError error=\"404 Not Found\"",
+      "ml.googleapis.com/job_id/log_area": "root"
+    },
+    "logName": "projects/smart-ads-451319/logs/workerpool0-0",
+    "receiveTimestamp": "2025-07-19T19:04:50.824859680Z"
+  },
+  {
+    "textPayload": "Job is running.",
+    "insertId": "13fq91zd8kh0",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "project_id": "smart-ads-451319",
+        "task_name": "service",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:05:00.767039046Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:05:01.231032115Z"
+  },
+  {
+    "textPayload": "The replica workerpool0-0 exited with a non-zero status of 1. To find out more about why your job exited please check the logs: https://console.cloud.google.com/logs/viewer?project=12955519745&resource=ml_job%2Fjob_id%2F7671007389625090048&advancedFilter=resource.type%3D%22ml_job%22%0Aresource.labels.job_id%3D%227671007389625090048%22",
+    "insertId": "13fq91zd8kh1",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "task_name": "service",
+        "project_id": "smart-ads-451319",
+        "job_id": "7671007389625090048"
+      }
+    },
+    "timestamp": "2025-07-19T19:05:00.900892666Z",
+    "severity": "ERROR",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:05:02.238976733Z"
+  },
+  {
+    "textPayload": "Job failed.",
+    "insertId": "13fq91zd8kq7",
+    "resource": {
+      "type": "ml_job",
+      "labels": {
+        "job_id": "7671007389625090048",
+        "project_id": "smart-ads-451319",
+        "task_name": "service"
+      }
+    },
+    "timestamp": "2025-07-19T19:07:32.660845306Z",
+    "severity": "INFO",
+    "labels": {
+      "ml.googleapis.com/endpoint": ""
+    },
+    "logName": "projects/smart-ads-451319/logs/ml.googleapis.com%2F7671007389625090048",
+    "receiveTimestamp": "2025-07-19T19:07:33.405928771Z"
+  }
+]

@@ -128,9 +128,14 @@ def read_from_bq(
 
 @component(
     packages_to_install=[
-        "google_cloud_core",
-        "google_cloud_aiplatform",
-        "datetime",
+        "google-cloud-aiplatform",
+        "pandas",
+        "scikit-learn",
+        "joblib",
+        "fsspec",
+        "gcsfs",
+        "google-cloud-bigquery",
+        "typer"
     ]
 )
 def train_model(
@@ -301,7 +306,7 @@ def pipeline(
         save_results=True,
         user_output_data_path=input_data_path,
         output_data_format="csv",
-    )
+    ).after(preprocess_output)
 
     training_status = train_model(
         artifacts_bucket=artefacts_bucket,
@@ -309,8 +314,7 @@ def pipeline(
         location=project_region,
         model_image=container_image,
         training_job_name=preprocess_output.outputs["training_job_name"],
-        training_args=preprocess_output.outputs["training_args"],
-        after_component=dataset.output,
+        training_args=[dataset.output],
     )
 
 

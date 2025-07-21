@@ -170,7 +170,7 @@
           "command": [
             "sh",
             "-c",
-            "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.13.0' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&  python3 -m pip install --quiet --no-warn-script-location 'google_cloud_core' 'google_cloud_aiplatform' 'datetime' && \"$0\" \"$@\"\n",
+            "\nif ! [ -x \"$(command -v pip)\" ]; then\n    python3 -m ensurepip || python3 -m ensurepip --user || apt-get install python3-pip\nfi\n\nPIP_DISABLE_PIP_VERSION_CHECK=1 python3 -m pip install --quiet --no-warn-script-location 'kfp==2.13.0' '--no-deps' 'typing-extensions>=3.7.4,<5; python_version<\"3.9\"'  &&  python3 -m pip install --quiet --no-warn-script-location 'google-cloud-aiplatform' 'pandas' 'scikit-learn' 'joblib' 'fsspec' 'gcsfs' 'google-cloud-bigquery' 'typer' && \"$0\" \"$@\"\n",
             "sh",
             "-ec",
             "program_path=$(mktemp -d)\n\nprintf \"%s\" \"$0\" > \"$program_path/ephemeral_component.py\"\n_KFP_RUNTIME=true python3 -m kfp.dsl.executor_main                         --component_module_path                         \"$program_path/ephemeral_component.py\"                         \"$@\"\n",
@@ -206,6 +206,9 @@
           "componentRef": {
             "name": "comp-read-from-bq"
           },
+          "dependentTasks": [
+            "preprocess-info"
+          ],
           "inputs": {
             "parameters": {
               "output_data_format": {
@@ -248,12 +251,6 @@
           ],
           "inputs": {
             "parameters": {
-              "after_component": {
-                "taskOutputParameter": {
-                  "outputParameterKey": "Output",
-                  "producerTask": "read-from-bq"
-                }
-              },
               "artifacts_bucket": {
                 "componentInputParameter": "artefacts_bucket"
               },
@@ -263,13 +260,20 @@
               "model_image": {
                 "componentInputParameter": "container_image"
               },
+              "pipelinechannel--read-from-bq-Output": {
+                "taskOutputParameter": {
+                  "outputParameterKey": "Output",
+                  "producerTask": "read-from-bq"
+                }
+              },
               "project_id": {
                 "componentInputParameter": "vertex_project"
               },
               "training_args": {
-                "taskOutputParameter": {
-                  "outputParameterKey": "training_args",
-                  "producerTask": "preprocess-info"
+                "runtimeValue": {
+                  "constant": [
+                    "{{$.inputs.parameters['pipelinechannel--read-from-bq-Output']}}"
+                  ]
                 }
               },
               "training_job_name": {
