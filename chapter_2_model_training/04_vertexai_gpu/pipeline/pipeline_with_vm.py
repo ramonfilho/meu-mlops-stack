@@ -381,9 +381,9 @@ def pipeline(
 
 if __name__ == "__main__":
     config = {
-        "vertex_project": "smart-ads-451913",
+        "vertex_project": "smart-ads-451319",
         "instance_name": "mnist-gpu-example",
-        "container_image": "us-central1-docker.pkg.dev/smart-ads-451913/model-gpu-vertexai/model_gpu",  # noqa
+        "container_image": "us-central1-docker.pkg.dev/smart-ads-451319/model-gpu-vertexai/model_gpu",  # noqa
         "location": "us-central1-b",
         "artefacts_bucket": "first_vertex_ai_kfp_1",
         # required by the vertex pipeline
