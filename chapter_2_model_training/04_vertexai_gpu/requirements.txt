@@ -75,8 +75,12 @@ grpc-google-iam-v1==0.12.4
 grpcio==1.51.1
     # via
     #   google-api-core
+    #   google-cloud-bigquery
     #   googleapis-common-protos
     #   grpc-google-iam-v1
+    #   grpcio-status
+grpcio-status==1.48.2
+    # via google-api-core
 httplib2==0.21.0
     # via
     #   google-api-python-client
