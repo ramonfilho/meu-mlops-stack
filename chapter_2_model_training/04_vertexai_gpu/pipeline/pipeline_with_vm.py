@@ -1,6 +1,7 @@
 import kfp
 from kfp import compiler
 from kfp.dsl import component
+from google.cloud import aiplatform
 from google.cloud.aiplatform import pipeline_jobs
 from typing import Optional
 import json
@@ -390,6 +391,12 @@ if __name__ == "__main__":
         "vertex_bucket": "gs://first_vertex_ai_kfp_1/pipeline_root",
         "cache": False,
     }
+
+    aiplatform.init(
+        project=config["vertex_project"],
+        location=config["project_region"],
+    )
+
     package_path = "pipeline.json"
     pipe = compiler.Compiler().compile(pipeline_func=pipeline, package_path=package_path)
     # with open(package_path, "r") as ifile:
