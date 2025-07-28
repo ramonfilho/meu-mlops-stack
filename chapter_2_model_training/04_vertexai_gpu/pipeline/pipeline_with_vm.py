@@ -1,6 +1,6 @@
 import kfp
-from kfp.v2 import compiler
-from kfp.v2.dsl import component
+from kfp import compiler
+from kfp.dsl import component
 from google.cloud.aiplatform import pipeline_jobs
 from typing import Optional
 import json
@@ -392,9 +392,11 @@ if __name__ == "__main__":
     }
     package_path = "pipeline.json"
     pipe = compiler.Compiler().compile(pipeline_func=pipeline, package_path=package_path)
-    with open(package_path, "r") as ifile:
-        pipeline_specs = json.load(ifile)
-    display_name = pipeline_specs["pipelineSpec"]["pipelineInfo"]["name"]
+    # with open(package_path, "r") as ifile:
+    #     pipeline_specs = json.load(ifile)
+    # display_name = pipeline_specs["pipelineSpec"]["pipelineInfo"]["name"]
+    display_name = "gpu-example-2-pipeline"
+
     pipeline = pipeline_jobs.PipelineJob(
             display_name,
             package_path,
