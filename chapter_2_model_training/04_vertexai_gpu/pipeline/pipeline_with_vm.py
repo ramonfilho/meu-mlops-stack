@@ -323,7 +323,7 @@ def train_on_gpu(
             gcloud auth configure-docker
 
             echo "Run docker image with GPUs and env vars"
-            docker run --gpus=all --log-driver=gcplogs -e CLOUD_ML_PROJECT_ID={project_number} -e AIP_MODEL_DIR=gs://{artefacts_bucket} {model_image}
+            docker run --gpus=all --log-driver=gcplogs -e CLOUD_ML_PROJECT_ID={project_number} -e AIP_MODEL_DIR=gs://{artefacts_bucket} {model_image} gs://{artefacts_bucket}
             sleep 60
             echo "shutdown now"
             shutdown -h now;
@@ -380,14 +380,14 @@ def pipeline(
 
 if __name__ == "__main__":
     config = {
-        "vertex_project": "data-gearbox-421420",
+        "vertex_project": "smart-ads-451913",
         "instance_name": "mnist-gpu-example",
-        "container_image": "europe-west2-docker.pkg.dev/data-gearbox-421420/model-gpu-vertexai/model_gpu", # noqa
-        "location": "europe-west2-b",
-        "artefacts_bucket": "vertexai_output_gpu_america",
+        "container_image": "us-central1-docker.pkg.dev/smart-ads-451913/model-gpu-vertexai/model_gpu",  # noqa
+        "location": "us-central1-b",
+        "artefacts_bucket": "first_vertex_ai_kfp_1",
         # required by the vertex pipeline
-        "project_region": "europe-west2",
-        "vertex_bucket": "gs://vertexai_inputfiles",
+        "project_region": "us-central1",
+        "vertex_bucket": "gs://first_vertex_ai_kfp_1/pipeline_root",
         "cache": False,
     }
     package_path = "pipeline.json"
