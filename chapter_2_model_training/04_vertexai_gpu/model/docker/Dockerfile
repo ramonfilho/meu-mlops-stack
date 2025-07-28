@@ -4,6 +4,9 @@ ARG WORKDIR=/mlflow_tutorial
 RUN mkdir -p ${WORKDIR}
 WORKDIR ${WORKDIR}
 
+# Install the package required to create virtual environments
+RUN apt-get update && apt-get install -y python3-venv
+
 # Create a virtual environment and update pip
 RUN python3 -m venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
