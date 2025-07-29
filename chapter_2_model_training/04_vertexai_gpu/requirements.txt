@@ -1,4 +1,3 @@
-Plaintext
 absl-py==1.3.0
     # via kfp
 attrs==22.1.0
