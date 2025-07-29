@@ -8,7 +8,7 @@ WORKDIR ${WORKDIR}
 RUN apt-get update && \
     apt-get install -y python3-venv build-essential libatlas-base-dev gfortran && \
     python3 -m venv /opt/venv && \
-    /opt/venv/bin/pip install --no-cache-dir matplotlib scikit-learn numpy
+    /opt/venv/bin/pip install --no-cache-dir --break-system-packages matplotlib scikit-learn numpy
 
 # Add the virtual environment to the PATH
 ENV PATH="/opt/venv/bin:$PATH"
