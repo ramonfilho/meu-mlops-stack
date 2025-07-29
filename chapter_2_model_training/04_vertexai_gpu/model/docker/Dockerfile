@@ -4,15 +4,14 @@ ARG WORKDIR=/mlflow_tutorial
 RUN mkdir -p ${WORKDIR}
 WORKDIR ${WORKDIR}
 
-# Install the package required to create virtual environments
-RUN apt-get update && apt-get install -y python3-venv
+# Install venv, create virtual environment, and install dependencies in a single layer
+RUN apt-get update && \
+    apt-get install -y python3-venv && \
+    python3 -m venv /opt/venv && \
+    /opt/venv/bin/pip install --no-cache-dir matplotlib scikit-learn numpy
 
-# Create a virtual environment and update pip
-RUN python3 -m venv /opt/venv
+# Add the virtual environment to the PATH
 ENV PATH="/opt/venv/bin:$PATH"
-
-# Install dependencies within the virtual environment
-RUN pip install --no-cache-dir matplotlib scikit-learn numpy
 
 COPY model_gpu.py ${WORKDIR}/model.py
 
