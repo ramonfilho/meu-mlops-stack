@@ -6,7 +6,7 @@ WORKDIR ${WORKDIR}
 
 # Install venv, create virtual environment, and install dependencies in a single layer
 RUN apt-get update && \
-    apt-get install -y python3-venv && \
+    apt-get install -y python3-venv build-essential libatlas-base-dev gfortran && \
     python3 -m venv /opt/venv && \
     /opt/venv/bin/pip install --no-cache-dir matplotlib scikit-learn numpy
 
@@ -15,4 +15,4 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 COPY model_gpu.py ${WORKDIR}/model.py
 
-CMD ["python", "model.py"]
+CMD ["/opt/venv/bin/python", "model.py"]
