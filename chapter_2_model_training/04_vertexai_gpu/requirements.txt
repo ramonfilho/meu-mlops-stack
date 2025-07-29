@@ -23,7 +23,7 @@ docstring-parser==0.15
     # via kfp
 fire==0.4.0
     # via kfp
-google-api-core[grpc]==2.11.0
+google-api-core[grpc]==2.19.0 # ATUALIZADO para Python 3.12+
     # via
     #   google-api-python-client
     #   google-cloud-aiplatform
@@ -32,9 +32,9 @@ google-api-core[grpc]==2.11.0
     #   google-cloud-resource-manager
     #   google-cloud-storage
     #   kfp
-google-api-python-client==1.12.11
+google-api-python-client==2.128.0 # ATUALIZADO para Python 3.12+
     # via kfp
-google-auth==2.15.0
+google-auth==2.29.0 # ATUALIZADO para Python 3.12+
     # via
     #   google-api-core
     #   google-api-python-client
@@ -45,17 +45,17 @@ google-auth==2.15.0
     #   kubernetes
 google-auth-httplib2==0.1.0
     # via google-api-python-client
-google-cloud-aiplatform==1.18.1
+google-cloud-aiplatform==1.49.0 # ATUALIZADO para Python 3.12+
     # via -r requirements.in
-google-cloud-bigquery==2.34.4
+google-cloud-bigquery==3.18.0 # ATUALIZADO para Python 3.12+
     # via google-cloud-aiplatform
 google-cloud-core==2.3.2
     # via
     #   google-cloud-bigquery
     #   google-cloud-storage
-google-cloud-resource-manager==1.6.3
+google-cloud-resource-manager==1.12.0 # ATUALIZADO para Python 3.12+
     # via google-cloud-aiplatform
-google-cloud-storage==2.6.0
+google-cloud-storage==2.10.0 # ATUALIZADO para Python 3.12+
     # via
     #   google-cloud-aiplatform
     #   kfp
@@ -65,21 +65,21 @@ google-resumable-media==2.4.0
     # via
     #   google-cloud-bigquery
     #   google-cloud-storage
-googleapis-common-protos[grpc]==1.57.0
+googleapis-common-protos[grpc]==1.62.0 # ATUALIZADO para Python 3.12+
     # via
     #   google-api-core
     #   grpc-google-iam-v1
     #   grpcio-status
-grpc-google-iam-v1==0.12.4
+grpc-google-iam-v1==0.13.0 # ATUALIZADO para Python 3.12+
     # via google-cloud-resource-manager
-grpcio==1.51.1
+grpcio==1.64.1 # ATUALIZADO para Python 3.12+
     # via
     #   google-api-core
     #   google-cloud-bigquery
     #   googleapis-common-protos
     #   grpc-google-iam-v1
     #   grpcio-status
-grpcio-status==1.48.2
+grpcio-status==1.64.1 # ATUALIZADO para Python 3.12+
     # via google-api-core
 httplib2==0.21.0
     # via
@@ -91,7 +91,12 @@ jinja2==3.1.2
     # via -r requirements.in
 jsonschema==3.2.0
     # via kfp
-kfp==1.8.16
+kfp==1.8.16 # AVISO: Esta versão do KFP NÃO é compatível com Python 3.12 (requer <3.10).
+             # Você precisará:
+             # A) Downgrade do seu ambiente Python para 3.9 ou 3.10, OU
+             # B) Atualizar KFP para uma versão 2.x.x (ex: kfp==2.2.0), o que PODE
+             #    exigir modificações no código do seu pipeline (pipeline_with_vm.py)
+             #    devido a breaking changes entre as versões principais do KFP.
     # via -r requirements.in
 kfp-pipeline-spec==0.1.16
     # via kfp
@@ -101,20 +106,20 @@ kubernetes==18.20.0
     # via kfp
 markupsafe==2.1.1
     # via jinja2
-numpy==1.23.5
+numpy==1.26.4 # ATUALIZADO para Python 3.12+
     # via pyarrow
 oauthlib==3.2.2
     # via requests-oauthlib
-packaging==21.3
+packaging==23.2 # ATUALIZADO para Python 3.12+
     # via
     #   google-cloud-aiplatform
     #   google-cloud-bigquery
-proto-plus==1.22.1
+proto-plus==1.23.0 # ATUALIZADO para Python 3.12+
     # via
     #   google-cloud-aiplatform
     #   google-cloud-bigquery
     #   google-cloud-resource-manager
-protobuf==3.20.3
+protobuf==4.25.3 # ATUALIZADO para Python 3.12+
     # via
     #   google-api-core
     #   google-cloud-aiplatform
@@ -125,7 +130,7 @@ protobuf==3.20.3
     #   kfp
     #   kfp-pipeline-spec
     #   proto-plus
-pyarrow==10.0.0
+pyarrow==15.0.0 # ATUALIZADO para Python 3.12+
     # via -r requirements.in
 pyasn1==0.4.8
     # via
@@ -146,11 +151,11 @@ python-dateutil==2.8.2
     #   google-cloud-bigquery
     #   kfp-server-api
     #   kubernetes
-pyyaml==5.4.1
+pyyaml==6.0.1 # ATUALIZADO para Python 3.12+
     # via
     #   kfp
     #   kubernetes
-requests==2.28.1
+requests==2.31.0 # ATUALIZADO para Python 3.12+
     # via
     #   google-api-core
     #   google-cloud-bigquery
@@ -188,7 +193,7 @@ uritemplate==3.0.1
     # via
     #   google-api-python-client
     #   kfp
-urllib3==1.26.13
+urllib3==2.2.1 # ATUALIZADO para Python 3.12+
     # via
     #   kfp-server-api
     #   kubernetes
@@ -199,6 +204,3 @@ wheel==0.38.4
     # via strip-hints
 wrapt==1.14.1
     # via deprecated
-
-# The following packages are considered to be unsafe in a requirements file:
-# setuptools
