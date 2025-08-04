@@ -23,7 +23,7 @@ docstring-parser==0.15
     # via kfp
 fire==0.4.0
     # via kfp
-google-api-core[grpc]==2.19.0 # ATUALIZADO para Python 3.12+
+google-api-core[grpc]==2.19.1 # ATUALIZADO para corrigir erro de autenticação em Python 3.12+
     # via
     #   google-api-python-client
     #   google-cloud-aiplatform
