@@ -32,9 +32,9 @@ google-api-core[grpc]==2.19.0 # ATUALIZADO para Python 3.12+
     #   google-cloud-resource-manager
     #   google-cloud-storage
     #   kfp
-google-api-python-client==2.128.0 # ATUALIZADO para Python 3.12+
+google-api-python-client==2.134.0 # ATUALIZADO para corrigir erro de autenticação em Python 3.12+
     # via kfp
-google-auth==2.29.0 # ATUALIZADO para Python 3.12+
+google-auth==2.30.0 # ATUALIZADO para corrigir erro de autenticação em Python 3.12+
     # via
     #   google-api-core
     #   google-api-python-client
