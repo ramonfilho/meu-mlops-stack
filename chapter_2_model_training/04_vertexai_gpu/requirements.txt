@@ -151,7 +151,7 @@ python-dateutil==2.8.2
     #   google-cloud-bigquery
     #   kfp-server-api
     #   kubernetes
-pyyaml==5.4.1 # ATUALIZADO para Python 3.12+
+pyyaml==6.0.1 # ATUALIZADO para Python 3.12+
     # via
     #   kfp
     #   kubernetes
