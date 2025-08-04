@@ -178,7 +178,7 @@ termcolor==2.1.1
     # via fire
 typer==0.7.0
     # via kfp
-typing-extensions==4.4.0
+typing-extensions==4.10.0 # ATUALIZADO para compatibilidade com Python 3.12+
     # via pydantic
 uritemplate==3.0.1
     # via
