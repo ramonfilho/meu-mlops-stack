@@ -184,7 +184,7 @@ uritemplate==3.0.1
     # via
     #   google-api-python-client
     #   kfp
-urllib3==2.2.1 # ATUALIZADO para Python 3.12+
+urllib3==1.26.15 # Downgrade para compatibilidade com kfp < 2.0.0
     # via
     #   kfp-server-api
     #   kubernetes
