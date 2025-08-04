@@ -1,5 +1,6 @@
 # Core dependencies for the Vertex AI pipeline.
-# By listing only the top-level packages, we allow pip to resolve the
-# entire dependency tree with the latest compatible versions.
+# We specify only the top-level packages and pin google-auth to a known-stable version
+# to avoid a bug in newer versions related to Python 3.12 environments.
 google-cloud-aiplatform
 kfp
+google-auth==2.22.0
