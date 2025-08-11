@@ -90,15 +90,15 @@ optimizer = optim.Adam(mnist_model.parameters())
 loss_fn = nn.CrossEntropyLoss()
 trainer = L.Trainer(max_epochs=5)
 
-experiment_name = "pytorch-lightning-MNIST" #127.0.0.1
-client = MlflowClient(tracking_uri="http://localhost:5000")
+experiment_name = "experiment-1" #127.0.0.1
+client = MlflowClient(tracking_uri="http://localhost:5002")
 experiment_exists = client.get_experiment_by_name(experiment_name)
 if not experiment_exists:
     experiment_id = client.create_experiment(experiment_name)
 else:
     experiment_id = experiment_exists.experiment_id
-run_name = f"stefano-{today}"
-mlflow.set_tracking_uri("http://localhost:5000")
+run_name = f"mlflow-experiment-1-{today}"
+mlflow.set_tracking_uri("http://localhost:5002")
 
 mlflow.pytorch.autolog(log_every_n_epoch=1,
                        log_every_n_step=50,

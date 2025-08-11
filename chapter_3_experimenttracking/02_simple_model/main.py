@@ -28,14 +28,14 @@ rf = RandomForestClassifier(n_estimators=20, max_depth=3, random_state=42)
 # Set up MLflow specs
 today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
 experiment_name = "randomforest-experiments"
-client = MlflowClient(tracking_uri="http://localhost:5000")
+client = MlflowClient(tracking_uri="http://localhost:8080")
 experiment_exists = client.get_experiment_by_name(experiment_name)
 if not experiment_exists:
     experiment_id = client.create_experiment(experiment_name)
 else:
     experiment_id = experiment_exists.experiment_id
 run_name = f"stefano-{today}"
-mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_tracking_uri("http://localhost:8080")
 
 # Start MLflow run
 with mlflow.start_run(experiment_id=experiment_id,
