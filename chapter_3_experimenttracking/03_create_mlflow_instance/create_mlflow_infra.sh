@@ -28,7 +28,7 @@ gcloud compute instances create mlflow-server2 \
     --service-account=${PROJECT_NUMBER}-compute@developer.gserviceaccount.com \
     --scopes=https://www.googleapis.com/auth/cloud-platform \
     --tags=mlflow-server,http-server,https-server \
-    --create-disk=auto-delete=yes,boot=yes,device-name=mlflow-server,image=projects/ubuntu-os-cloud/global/images/ubuntu-2204-jammy-v20240607,mode=rw,size=10,type=projects/data-gearbox-421420/zones/europe-west2-b/diskTypes/pd-balanced \
+    --create-disk=auto-delete=yes,boot=yes,device-name=mlflow-server,image=projects/ubuntu-os-cloud/global/images/ubuntu-2204-jammy-v20240607,mode=rw,size=10,type=projects/smart-ads-451319/zones/europe-west2-b/diskTypes/pd-balanced \
     --no-shielded-secure-boot \
     --shielded-vtpm \
     --shielded-integrity-monitoring \
