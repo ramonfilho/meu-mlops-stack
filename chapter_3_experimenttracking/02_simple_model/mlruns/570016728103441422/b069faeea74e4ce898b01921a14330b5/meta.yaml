@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/570016728103441422/b069faeea74e4ce898b01921a14330b5/artifacts
+end_time: 1754912995035
+entry_point_name: ''
+experiment_id: '570016728103441422'
+lifecycle_stage: active
+run_id: b069faeea74e4ce898b01921a14330b5
+run_name: stefano-2025-08-11 08:49:33
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754912973434
+status: 3
+tags: []
+user_id: ramonmoreira
