@@ -85,7 +85,7 @@ def main(data_path: str):
     logging.info("Setting up MLflow options")
     today = datetime.today().strftime('%Y-%m-%d %H:%M:%S')
     experiment_name = "randomforest-experiments"
-    client = MlflowClient(tracking_uri="34.39.105.222:5000/") # 35.246.63.69 and 35.189.97.120:5000
+    client = MlflowClient(tracking_uri="http://34.39.105.222:5000/") # 35.246.63.69 and 35.189.97.120:5000
     experiment_exists = client.get_experiment_by_name(experiment_name)
     if not experiment_exists:
         experiment_id = client.create_experiment(experiment_name)
@@ -124,7 +124,7 @@ def main(data_path: str):
         # Copy data to bucket
         copy_local_directory_to_gcs(
             f"{output_folder}/model.joblib",
-            "vertexai_output_models",
+            "vertexai-output-models-eu",
             "RandomForestModel",
         )
         # Log model and parameters
